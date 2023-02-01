@@ -1,0 +1,27 @@
+.place__image {
+    width: calc(50% - 20px);
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 1279px) {
+    .place__image {
+        width: calc(50% - 16px);
+    }
+}
+
+
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        width: calc(50% - 14px);
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        width: 100%;
+    }
+}

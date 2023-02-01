@@ -1,0 +1,33 @@
+.cover-block {
+    margin-bottom: 92px;
+}
+
+
+
+@media screen and (max-width: 1279px) {
+    .cover-block {
+        margin-right: -48px;
+        margin-left: -48px;
+        
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .cover-block {
+        margin-right: -24px;
+        margin-left: -24px;
+        
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .cover-block {
+        margin-bottom: 64px;
+        margin-right: -16px;
+        margin-left: -16px;
+    }
+}
+
+
